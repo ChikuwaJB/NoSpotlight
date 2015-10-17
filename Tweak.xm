@@ -1,4 +1,4 @@
 %hook SBSpotlightSettings
--(BOOL)enableSpotlightHomeScreenGesture {return false;}
--(BOOL)enableSpotlightOnMinusPage {return false;}
+-(BOOL)enableSpotlightHomeScreenGesture {return 0;}
+-(BOOL)enableSpotlightOnMinusPage {return 0;}
 %end
